@@ -1,0 +1,89 @@
+body {
+    margin: 0px;
+    background-color: rgb(243, 238, 238);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 50px;
+}
+
+header {
+    background-color: rgb(42, 194, 118);
+    display: flex;
+    gap:25px;
+    align-items:center;
+    color: white;
+    padding: 7px;
+    box-shadow: 0px 3px black;
+}
+
+.BTM {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.title {
+    margin-left: auto;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+
+img {
+    width: 100%;
+}
+
+.Citron {
+    width: 300px;
+}
+
+.left {
+    margin-top: 30px;
+    gap:30px;
+    margin-left: 20px;
+}
+
+.gros {
+    font-weight: bold;
+}
+
+.right {
+    margin-left:auto;
+    margin-right: 20px;
+    background-color: white;
+    width: 300px;
+    margin-top: 38px;
+    padding: 50px 10px;
+}
+
+.Citron2 {
+    display: flex;
+    gap: 8px;
+}
+
+.prix {
+    color:red;
+    font-size: 50px;
+    justify-content:right;
+    margin-left: auto;
+}
+
+.formu {
+    display: flex;
+    border-radius: 1px;
+    justify-content: center;
+    gap:50px;
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.valider {
+    background-color: rgb(33, 80, 235);
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 90px;
+    justify-content: center;
+}
